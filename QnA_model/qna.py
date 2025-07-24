@@ -47,7 +47,7 @@ def retrieve_context(query, top_k=3, fallback_threshold=5):
     return " ".join(retrieved_contexts)
 
 # 🔹 Configure Gemini API Key
-genai.configure(api_key="AIzaSyBxAdkbQrOysrWgwb-T53xzGseZl9r4TEM")
+genai.configure(api_key="")
 
 def answer_question(query):
     """Answers legal questions using Gemini 2.5 with retrieved context."""
